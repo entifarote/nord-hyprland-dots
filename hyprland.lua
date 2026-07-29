@@ -21,10 +21,11 @@ local terminal    = "alacritty"
 local fileManager = "dolphin"
 local menu        = "wofi --show drun"
 local browser     = "librewolf"
+local browser2    = "torbrowser-launcher"
 
 -------------------
 ---- AUTOSTART ----
--------------------
+h
 
  hl.on("hyprland.start", function () 
    hl.exec_cmd("hyprpaper & hyprctl setcursor Breeze Dark 28 & hyprpm reload & waybar & dunst")
@@ -264,7 +265,7 @@ hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("hyprshot -z -m region --clip
 hl.bind(mainMod .. " + CTRL + W", hl.dsp.exec_cmd("hyprshot -z -o /home/enti/Pictures/Screenshots/ -m region"))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("steam | discord"))
 hl.bind(mainMod .. " + SHIFT + B", hl.dsp.exec_cmd("killall -KILL steam Discord"))
-hl.bind(mainMod .. " + SHIFT + D", hl.dsp.exec_cmd("torbrowser-launcher"))
+hl.bind(mainMod .. " + SHIFT + D", hl.dsp.exec_cmd(browser2))
 hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("hyprpicker -a"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock -q"))
 
