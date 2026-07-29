@@ -4,7 +4,7 @@ If you want to use the config, tweak the used apps, shortcuts and file paths in 
 
 Stuff i use:
 
-WM: Hyprland
+WM: Hyprland <br/>
 Bar: Waybar
 Font: JetBrains Mono Nerd
 App launcher: Wofi
