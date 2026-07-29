@@ -15,7 +15,8 @@ Shell: Fish<br/>
 Music player: Cliamp<br/>
 Wallpaper: Hyprpaper<br/>
 Color picker: Hyprpicker <br/>
-Screenshot utility: Hyprshot
+Screenshot utility: Hyprshot<br/>
+Cursor: Breeze Dark<br/>
 
  Preview: 
 
